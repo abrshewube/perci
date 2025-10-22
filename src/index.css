@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply overflow-x-hidden;
+    /* Theme-aware styles */
+    @apply bg-dark text-white;
+  }
+
+  /* Bright theme styles */
+  [data-theme="bright"] body {
+    @apply bg-white text-bright-text;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent;
+  }
+
+  /* Theme-aware utility classes */
+  .bg-theme {
+    @apply bg-dark-light;
+  }
+  
+  .bg-theme-light {
+    @apply bg-dark-lighter;
+  }
+  
+  .text-theme {
+    @apply text-white;
+  }
+  
+  .text-theme-muted {
+    @apply text-gray-400;
+  }
+  
+  .border-theme {
+    @apply border-dark-lighter;
+  }
+  
+  /* Bright theme overrides */
+  [data-theme="bright"] .bg-theme {
+    @apply bg-bright-light;
+  }
+  
+  [data-theme="bright"] .bg-theme-light {
+    @apply bg-bright-lighter;
+  }
+  
+  [data-theme="bright"] .text-theme {
+    @apply text-black font-black;
+  }
+  
+  [data-theme="bright"] .text-theme-muted {
+    @apply text-gray-800 font-black;
+  }
+  
+  [data-theme="bright"] .border-theme {
+    @apply border-gray-300;
+  }
+  
+  /* Bright theme button and interactive element fixes */
+  [data-theme="bright"] button {
+    @apply text-black font-black;
+  }
+  
+  [data-theme="bright"] .text-white {
+    @apply text-black;
+  }
+  
+  [data-theme="bright"] .text-gray-300 {
+    @apply text-gray-900 font-black;
+  }
+  
+  [data-theme="bright"] .text-gray-400 {
+    @apply text-gray-800 font-black;
+  }
+  
+  [data-theme="bright"] .text-gray-500 {
+    @apply text-gray-900 font-black;
+  }
+  
+  /* Additional bright theme text visibility fixes */
+  [data-theme="bright"] .text-gray-600 {
+    @apply text-gray-800 font-black;
+  }
+  
+  [data-theme="bright"] .text-gray-700 {
+    @apply text-gray-900 font-black;
+  }
+  
+  [data-theme="bright"] .text-gray-800 {
+    @apply text-black font-black;
+  }
+  
+  [data-theme="bright"] .text-gray-900 {
+    @apply text-black font-black;
+  }
+
+  .card-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+  }
+
+  .card-3d:hover {
+    transform: translateZ(20px) rotateX(5deg) rotateY(5deg);
+  }
+
+  .page-transition {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
