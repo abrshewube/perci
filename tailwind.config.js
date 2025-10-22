@@ -15,9 +15,9 @@ export default {
           lighter: '#2A2F4A',
         },
         accent: {
-          DEFAULT: '#00D9FF',
-          light: '#33E3FF',
-          dark: '#00B8D9',
+          DEFAULT: '#FF8C61',
+          light: '#FFA07A',
+          dark: '#E55A2B',
         },
         // Bright theme colors
         bright: {
@@ -52,8 +52,8 @@ export default {
           '50%': { transform: 'translateY(-20px)' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 5px #FF6B35, 0 0 10px #FF6B35' },
-          '100%': { boxShadow: '0 0 20px #FF6B35, 0 0 30px #FF6B35' },
+          '0%': { boxShadow: '0 0 5px #FF6B35, 0 0 10px #FF8C61' },
+          '100%': { boxShadow: '0 0 20px #FF6B35, 0 0 30px #FF8C61' },
         },
         slideUp: {
           '0%': { transform: 'translateY(50px)', opacity: '0' },
