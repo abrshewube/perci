@@ -268,8 +268,12 @@ export default function Hero() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+<<<<<<< HEAD
             href="/assets/Perci_Wolday_Resume 3.pdf"
             download="Perci_Wolday_Resume.pdf"
+=======
+            href="#"
+>>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
             className="group flex items-center gap-3 px-8 py-4 bg-theme border-2 border-accent rounded-full hover:bg-accent/10 transition-all duration-300 font-black text-lg text-theme"
           >
             <Download className="w-5 h-5 group-hover:animate-bounce" />
