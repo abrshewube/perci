@@ -18,11 +18,7 @@ const projects = [
     date: 'Jan 2025',
     color: 'primary',
     github: 'https://github.com/PerciErmiasWolday',
-<<<<<<< HEAD
     impact: 'Large-scale voting platform',
-=======
-    impact: '1000+ votes processed',
->>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
   },
   {
     id: 'library-management',
@@ -38,11 +34,7 @@ const projects = [
     date: 'Nov 2024',
     color: 'accent',
     github: 'https://github.com/PerciErmiasWolday',
-<<<<<<< HEAD
     impact: 'Comprehensive library system',
-=======
-    impact: '500+ books managed',
->>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
   },
   {
     id: 'ai-motion-planning',
@@ -58,11 +50,7 @@ const projects = [
     date: 'May 2025',
     color: 'primary',
     github: 'https://github.com/PerciErmiasWolday',
-<<<<<<< HEAD
     impact: 'Advanced robotics research',
-=======
-    impact: '100+ test scenarios',
->>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
   },
   {
     id: 'chat-application',
@@ -78,11 +66,7 @@ const projects = [
     date: 'Sep 2024',
     color: 'accent',
     github: 'https://github.com/PerciErmiasWolday',
-<<<<<<< HEAD
     impact: 'Real-time messaging platform',
-=======
-    impact: '50+ active users',
->>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
   },
   {
     id: 'ml-fairness-analyzer',
@@ -98,11 +82,7 @@ const projects = [
     date: 'Jul 2025',
     color: 'primary',
     github: 'https://github.com/PerciErmiasWolday',
-<<<<<<< HEAD
     impact: 'ML bias analysis tool',
-=======
-    impact: '5+ datasets analyzed',
->>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
   },
   {
     id: 'portfolio-optimizer',
@@ -118,11 +98,7 @@ const projects = [
     date: 'Mar 2024',
     color: 'accent',
     github: 'https://github.com/PerciErmiasWolday',
-<<<<<<< HEAD
     impact: 'Financial optimization platform',
-=======
-    impact: '100+ simulations run',
->>>>>>> 66049c950eab7b50658c8ec6b9b580182e2ab4df
   },
 ];
 
